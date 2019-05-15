@@ -1,0 +1,19 @@
+﻿<Window x:Class="Project2.Console"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"
+        Title="Text-only mode" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer x:Name="scrollViewer" Margin="37,6,89,114">
+            <TextBox x:Name="block" IsReadOnly="True" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Welcome to The Resistance" VerticalAlignment="Top" Margin="18,10,0,0" FontSize="14" TextChanged="readonlybox_TextChanged" BorderBrush="{x:Null}"/>
+        </ScrollViewer>
+        <TextBox x:Name="box" HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" VerticalAlignment="Top" Width="600" Margin="37,311,0,0" FontSize="24" TextChanged="box_TextChanged"/>
+        <Button x:Name="button" Content="Play" HorizontalAlignment="Left" VerticalAlignment="Top" Width="93" Margin="672,323,0,0" Height="44" FontSize="24" Click="Button_Click" Background="#FF8AD3D9"/>
+
+    </Grid>
+</Window>
+
+

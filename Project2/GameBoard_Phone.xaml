@@ -1,0 +1,104 @@
+﻿<Page x:Class="Project2.GameBoard_Phone"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project2"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="600"
+      Title="GameBoard_Phone">
+
+    <Grid>
+        <Grid x:Name="P1" HorizontalAlignment="Left" Height="50" Margin="20,170,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P1_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P1_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P1_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P1_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P2" HorizontalAlignment="Left" Height="50" Margin="165,170,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P2_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P2_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P2_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P2_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P3" HorizontalAlignment="Left" Height="50" Margin="310,170,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P3_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P3_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P3_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P3_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P4" HorizontalAlignment="Left" Height="50" Margin="455,170,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P4_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P4_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P4_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P4_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P5" HorizontalAlignment="Left" Height="47" Margin="20,220,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P5_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P5_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P5_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P5_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P6" HorizontalAlignment="Left" Height="47" Margin="165,220,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P6_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P6_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P6_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P6_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P7" HorizontalAlignment="Left" Height="48" Margin="310,220,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P7_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P7_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P7_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P7_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P8" HorizontalAlignment="Left" Height="48" Margin="455,220,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P8_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P8_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P8_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P8_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P9" HorizontalAlignment="Left" Height="43" Margin="20,270,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P9_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P9_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P9_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P9_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <Grid x:Name="P10" HorizontalAlignment="Left" Height="43" Margin="165,270,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock x:Name="P10_Name" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="55" TextAlignment="Right" Margin="-1,0,0,0"/>
+            <CheckBox x:Name="P10_Select" Content="Select" HorizontalAlignment="Left" Height="17" Margin="55,1,0,0" VerticalAlignment="Top" Width="65"/>
+            <RadioButton x:Name="P10_No" Content="No" HorizontalAlignment="Left" Height="19" Margin="70,23,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.949,-0.409"/>
+            <RadioButton x:Name="P10_Yes" Content="Yes" Height="19" Margin="0,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        </Grid>
+        <TextBlock x:Name="Status" HorizontalAlignment="Left" Height="32" Margin="128,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" RenderTransformOrigin="2.727,1.25"/>
+        <TextBlock x:Name="Round" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Margin="20,323,0,0"/>
+        <Button x:Name="Confirm" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="494,323,0,0" Height="32" FontSize="18" Click="Confirm_Click"/>
+        <Image HorizontalAlignment="Left" Height="146"  VerticalAlignment="Top" Source="Images/MobileGameBoard.png" Margin="85,10,0,0"/>
+        <Image x:Name="missionOne" HorizontalAlignment="Left" Height="60" Margin="113,37,0,0" VerticalAlignment="Top" Width="60" MouseEnter="mission_MouseEnter" >
+            <Image.ToolTip>
+                <ToolTip x:Name="result1" Content=""/>
+            </Image.ToolTip>
+        </Image>
+        <Image x:Name="missionTwo" HorizontalAlignment="Left" Height="60" Margin="190,82,0,0" VerticalAlignment="Top" Width="60" MouseEnter="mission_MouseEnter">
+            <Image.ToolTip>
+                <ToolTip x:Name="result2" Content=""/>
+            </Image.ToolTip>
+        </Image>
+        <Image x:Name="missionThree" HorizontalAlignment="Left" Height="60" Margin="272,37,0,0" VerticalAlignment="Top" Width="60" MouseEnter="mission_MouseEnter" >
+            <Image.ToolTip>
+                <ToolTip x:Name="result3" Content=""/>
+            </Image.ToolTip>
+        </Image>
+        <Image x:Name="missionFour" HorizontalAlignment="Left" Height="60" Margin="351,82,0,0" VerticalAlignment="Top" Width="60" MouseEnter="mission_MouseEnter">
+            <Image.ToolTip>
+                <ToolTip x:Name="result4" Content=""/>
+            </Image.ToolTip>
+        </Image>
+        <Image x:Name="missionFive" HorizontalAlignment="Left" Height="60" Margin="432,37,0,0" VerticalAlignment="Top" Width="60" MouseEnter="mission_MouseEnter">
+            <Image.ToolTip>
+                <ToolTip x:Name="result5" Content=""/>
+            </Image.ToolTip>
+        </Image>
+    </Grid>
+</Page>
+
+
